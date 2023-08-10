@@ -1,0 +1,418 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    overflow-x: hidden;
+
+}
+
+ul {
+    padding: 0px !important;
+}
+
+.menu-principal {
+    width: 100%;
+    background-color: #404040;
+    height: 454px;
+}
+
+main {
+    margin: 0 auto;
+    width: 980px;
+    float: left;
+    position: relative;
+}
+
+.logo {
+    padding: 15px;
+}
+
+.header-2 {
+    background-color: #ffffff;
+    width: 91%;
+    height: 85px;
+    margin: 0 auto;
+}
+
+.menu-urls {
+    height: 10px;
+    border-bottom: 3px solid #b27e74;
+}
+
+.menu ul li {
+    display: inline-block;
+    color: #b27e74;
+    margin-left: 30px;
+    padding: 50px;
+}
+
+.menu ul li a:hover {
+    color: #1a0f0c;
+}
+
+.menu ul li :hover {
+    border-bottom: 3px solid #1a0f0c;
+}
+
+.menu ul li a {
+    color: #b27e74;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.menu {
+    width: 80%;
+    float: inherit;
+}
+
+.busca {
+    margin-top: -103px;
+    width: 250px;
+    height: 38px;
+    float: right;
+
+
+}
+
+.busca input {
+    background-image: url('../img/busca.png');
+    background-repeat: no-repeat;
+    background-position: 100%;
+    height: 34px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.col-100 {
+    width: 100%;
+    height: 1px;
+    float: left;
+    position: relative;
+}
+
+button.slick-prev {
+    font-size: 0px;
+    border: none;
+    width: 50px;
+    height: 50px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url('../img/setaesquerda.png');
+    margin-top: 514px;
+    left: 20%;
+}
+
+button.slick-next {
+    font-size: 0px;
+    border: none;
+    width: 50px;
+    height: 50px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url('../img/setadireita.png');
+    margin-top: -150px;
+    right: 18%;
+}
+
+.slick-list {
+    width: 100% !important;
+}
+
+.slick-initialized {
+    overflow: hidden;
+    margin-top: 100px;
+}
+
+.slick-dots li button {
+    font-size: 0px;
+    border: 5px solid #080303;
+    width: 30px;
+    height: 30px;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.slick-dots li {
+    padding-left: 10px;
+    display: inline-block;
+}
+
+.slick-dots {
+    margin: 0 auto;
+    width: 50%;
+    position: absolute;
+    left: 47%;
+    top: 680px;
+
+}
+
+li.slick-active button {
+    background: #f8f5f5;
+}
+
+.slick-slide {
+    width: 1903px;
+    height: 640px;
+    margin-top: 30px;
+}
+
+.content.texto-destaque {
+    padding-top: 10px;
+    margin-top: 769px;
+    position: absolute;
+    left: 26.8%;
+}
+
+.texto-destaque {
+    text-align: center;
+}
+
+.col-3 img {
+    height: 390px;
+}
+
+.texto-destaque h1 {
+    color: #b27e74;
+}
+
+.texto-destaque p {
+    color: #1a0f0c;
+}
+
+.col-3 {
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 40%;
+    float: left;
+    position: relative;
+}
+
+.bloco-texto {
+    margin-top: 3em;
+}
+
+.bloco-texto.d {
+    margin-left: -250px;
+}
+
+.bloco-texto h3 {
+    color: #b27e74;
+    position: absolute;
+    margin-top: -320px;
+    margin-left: 300px;
+}
+
+.bloco-texto p {
+    position: absolute;
+    margin-top: -290px;
+    margin-left: 300px;
+    text-align: right;
+}
+
+.bloco-texto p1 {
+    position: absolute;
+    margin-left: 40px;
+    width: 400px;
+}
+
+.bloco-texto h4 {
+    color: #b27e74;
+}
+
+.fundo {
+    position: absolute;
+    margin-top: 1550px;
+}
+
+.texto-free {
+    font-size: larger;
+}
+
+.texto-free h5 {
+    margin-left: 19%;
+    font-size: 250%;
+    color: #ffffff;
+}
+
+.texto-free p {
+    margin-left: 12%;
+    font-size: 180%;
+    color: aliceblue;
+}
+
+.divisao {
+    margin-top: 1150px;
+    margin-left: 35%;
+}
+
+.batle {
+    margin-top: 566px;
+}
+
+.batle h6 {
+    position: absolute;
+    margin-left: 20%;
+    width: 250%;
+}
+
+.market h7 {
+    position: absolute;
+    margin-left: -1500px;
+    font-size: 50px;
+    margin-top: 60;
+}
+
+.economia h8 {
+    position: absolute;
+    margin-left: -650px;
+    margin-top: 50px;
+    font-size: 50;
+    color: #fcfafa;
+}
+
+.tela-login {
+    background-color: rgb(0, 0, 0, 0.3);
+    position: absolute;
+    top: 250%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 40px;
+    border-radius: 15px;
+    color: #f8f5f5;
+}
+
+.tela-login input {
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+.tela-login button {
+    background-color: dodgerblue;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.tela-login button:hover {
+    background-color: deepskyblue;
+}
+
+.tela-login h9 {
+    font-size: larger;
+    margin-left: 70px;
+}
+
+.criar-conta {
+    background-color: rgb(0, 0, 0, 0.3);
+    position: absolute;
+    top: 250%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+    border-radius: 15px;
+    color: #f8f5f5;
+}
+
+.criar-conta button {
+    background-color: dodgerblue;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.criar-conta button:hover {
+    background-color: deepskyblue;
+}
+
+.recupera-conta {
+    background-color: rgb(0, 0, 0, 0.3);
+    position: absolute;
+    top: 250%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+    border-radius: 15px;
+    color: #f8f5f5;
+}
+
+.recupera-conta button {
+    background-color: dodgerblue;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.recupera-conta button:hover {
+    background-color: deepskyblue;
+}
+
+.botao-uTorrent button {
+    background-color: rgb(252, 252, 252);
+    border: none;
+    padding: 20px;
+    width: 10%;
+    border-radius: 40px;
+    color: #b27e74;
+    font-size: 30px;
+    cursor: pointer;
+    position: absolute;
+    margin-top: -70%;
+    margin-left: 30%;
+}
+
+.botao-uTorrent button:hover {
+    background-color: antiquewhite;
+}
+
+.botao-mega button {
+    background-color: rgb(252, 252, 252);
+    border: none;
+    padding: 20px;
+    width: 10%;
+    border-radius: 40px;
+    color: #b27e74;
+    font-size: 30px;
+    cursor: pointer;
+    position: absolute;
+    margin-top: -70%;
+    margin-left: 46%;
+}
+
+.botao-mega button:hover {
+    background-color: antiquewhite;
+}
+
+.botao-google button {
+    background-color: rgb(252, 252, 252);
+    border: none;
+    padding: 26px;
+    width: 10%;
+    border-radius: 40px;
+    color: #b27e74;
+    font-size: 20px;
+    cursor: pointer;
+    position: absolute;
+    margin-top: -70%;
+    margin-left: 61%;
+}
+
+.botao-google button:hover {
+    background-color: antiquewhite;
+}
