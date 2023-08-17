@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Cadastro</title>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1, minimum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="generator" content="Brackets 1.8">
+    <link REL=StyleSheet href="seven_ORA">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: linear-gradient(to right, rgb(176, 202, 218), rgb(179, 77, 19));
+            overflow-x: hidden;
+        }
+
+        .contenedor-inputs {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(221, 102, 5, 0.7);
+            padding: 15px;
+            border-radius: 15px;
+            width: 20%;
+            color: white;
+            width: 10%;
+        }
+
+        fieldset {
+            border: 3px solid rgb(241, 83, 9);
+        }
+
+        legend {
+            border: 1px solid rgb(241, 83, 9);
+            padding: 10px;
+            text-align: center;
+            background-color: rgb(241, 83, 9);
+            border-radius: 8%;
+        }
+
+        .InputSubmit {
+            background-color: rgb(206, 98, 26);
+            border: none;
+            padding: 5px;
+            width: 50%;
+            border-radius: 10px;
+            color: aliceblue;
+            font-size: 15px;
+        }
+
+        .InputSubmit:hover {
+            background-color: rgb(192, 82, 9);
+            cursor: pointer;
+        }
+
+        .face-campo {
+            background-color: rgba(10, 10, 10, 0.486);
+            border: none;
+            padding: 5px;
+            width: 90%;
+            border-radius: 10px;
+            color: aliceblue;
+            font-size: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div>
+        <img src="./img/7.png" style="width: 2150px;position: absolute;margin-left: -9px;margin-top: -10px;" />
+    </div>
+    <div>
+        <img src="./img/cadastro2.png"
+            style="position: absolute;margin-left: 42%;margin-top: 10%;width: 283px;border-radius: 29px;" />
+    </div>
+    <hi
+        style="margin-top: -30%;position: absolute;margin-left: 47.3%;background-color: rgba(223, 93, 7, 0.9); padding: 13px;border-radius: 15px;color: aliceblue;">
+        Registro</hi>
+    <center>
+        <form action='conexao.php' method='post' class="form-register">
+
+            <div class="contenedor-inputs">
+                <input class="face-campo" type="text" name="Account" placeholder="Login" class="input-48" required
+                    autocomplete="off"><br><br>
+                <input class="face-campo" type="password" name="MD5PassWord" placeholder="Senha" class="input-48"
+                    required autocomplete="off"><br><br>
+                <input class="face-campo" type="text" name="Email" placeholder="Email" class="input-100" required
+                    autocomplete="off"><br><br>
+                <input class="face-campo" type="text" name="MotherLName" placeholder="Nome da mãe" class="input-100"
+                    required autocomplete="off"><br><br>
+                <input class="InputSubmit" type="submit" value="Registrar" class="btn-enviar" required>
+            </div>
+
+        </form>
+    </center>
+
+</body>
+
+</html>

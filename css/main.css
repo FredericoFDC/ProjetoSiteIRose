@@ -291,7 +291,7 @@ li.slick-active button {
     font-size: 15px;
 }
 
-.tela-login button {
+.tela-login.enviar-login {
     background-color: dodgerblue;
     border: none;
     padding: 15px;
@@ -302,8 +302,8 @@ li.slick-active button {
     cursor: pointer;
 }
 
-.tela-login button:hover {
-    background-color: deepskyblue;
+.enviar-login:hover {
+    background-color: rgb(137, 215, 241);
 }
 
 .tela-login h9 {
